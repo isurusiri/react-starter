@@ -1,0 +1,11 @@
+node_modules
+.cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+*.log
+# yarn.lock is ignored since this is a boilerplate code. 
+# This should be removed in actual projects.
+yarn.lock

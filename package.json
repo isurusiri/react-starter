@@ -1,0 +1,30 @@
+{
+  "name": "react-starter",
+  "version": "0.1.0",
+  "description": "Minimal react boilerplate code to jump start your next React JS project.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint:debug": "npm run lint -- --debug",
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.12.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.5.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.15.3"
+  }
+}
