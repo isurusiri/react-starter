@@ -11,7 +11,7 @@
   </a>
 </div>
 
-This repository contains a minimal boilerplate code to jump start any react project.  
+And it contains the minimal boilerplate code that you want to jump start any react project.  
 
 ##### What's included?  
 - [ReactJS](https://reactjs.org/)  
