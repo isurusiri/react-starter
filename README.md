@@ -41,12 +41,12 @@ And it contains the minimal boilerplate code that you want to jump start any rea
 ##### Choose between Parcel and Webpack  
 If you are just starting up the project or it doesn't require any custome build steps, then Parcel is enough. If you want to take control over your application's build process then the Webpack is what you are looking for.   
 
-####### Checkout parcel
+###### Checkout parcel
 ```
 $ git fetch
 $ git checkout build-with-parcel
 ```  
-####### Checkout parcel
+###### Checkout parcel
 ```
 $ git fetch
 $ git checkout build-with-webpack
