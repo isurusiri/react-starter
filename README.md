@@ -59,4 +59,5 @@ $ git checkout build-with-webpack
 - `lint`: example, `yarn lint` executes eslint against both `.js` and `.jsx` files in `/src` directory.  
 - `lint:debug`: example, `yarn lint:debug` executes eslint against both `.js` and `.jsx` files in `/src` directory in debug mode.
 
-
+- [Build with Parcel](https://github.com/isurusiri/react-starter/tree/build-with-parcel)
+- [Build with Webpack](https://github.com/isurusiri/react-starter/tree/build-with-webpack)
