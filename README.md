@@ -8,6 +8,7 @@
     <img widht="100" height="100" src="http://pluspng.com/img-png/airbnb-logo-png-png-ico-512.png" />
     <img widht="100" height="100" src="https://visual-regresion-testing.firebaseapp.com/parceljs.c11a4bd0.png" />
     <img widht="100" height="100" src="https://avatars3.githubusercontent.com/u/22247014?s=400&v=4" />
+    <img widht="100" height="100" src="https://github.com/webpack/media/blob/master/logo/icon.png" /?
   </a>
 </div>
 
@@ -22,17 +23,33 @@ And it contains the minimal boilerplate code that you want to jump start any rea
 - [jsx A11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)  
 - [Parcel](https://parceljs.org/)  
 - [Yarn](https://yarnpkg.com/en/)  
+- [Webpack](https://webpack.js.org/)
 
 ##### How to get started:
-1. Clone this repo using `https://github.com/isurusiri/react-starter.git`.  
-2. Install dependencies using `yarn`.  
-3. Make changes inside `/src` directory.  
-4. Additionally enable format on save in VS Code using, 
+1. Clone this repo using `https://github.com/isurusiri/react-starter.git` and `cd react-starter`.  
+2. Choose between Parcel and Webpack by refering below [>>](https://github.com/isurusiri/react-starter/tree/build-with-webpack#choose-between-parcel-and-webpack)
+3. Install dependencies using `yarn`.  
+4. Make changes inside `/src` directory.  
+5. Additionally enable format on save in VS Code using, 
 ```javascript
 {
   "prettier.requireConfig": true,
   "editor.formatOnSave": true
 }
+```  
+
+##### Choose between Parcel and Webpack  
+If you are just starting up the project or it doesn't require any custome build steps, then Parcel is enough. If you want to take control over your application's build process then the Webpack is what you are looking for.   
+
+###### Checkout parcel
+```
+$ git fetch
+$ git checkout build-with-parcel
+```  
+###### Checkout parcel
+```
+$ git fetch
+$ git checkout build-with-webpack
 ```  
 
 ##### Included scripts:
